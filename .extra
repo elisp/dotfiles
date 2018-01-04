@@ -5,7 +5,6 @@ alias flushdns='sudo killall -HUP mDNSResponder'
 alias dc='docker-compose'
 alias dclog='docker-compose logs -f'
 alias dcres='docker-compose restart'
-alias ls='ls -Gp'
 alias bashreload=". ~/.bash_profile"
 
 
