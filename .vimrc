@@ -105,4 +105,6 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
+" Turn on spell checks and set wordwrap on 72 chars for 
+" Git Commit files
 autocmd Filetype gitcommit setlocal spell textwidth=72
