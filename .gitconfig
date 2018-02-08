@@ -13,9 +13,10 @@
   la = "!git config -l | grep alias | cut -c 7-"
   # Pretty log output
   hist = log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
-	ls = log --pretty=format:\"%C(yellow)%h %C(cyan)%aN %C(green)%s %Creset(%ad)\" --date=relative
-	s = status
-	grog = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
+  ls = log --pretty=format:\"%C(yellow)%h %C(cyan)%aN %C(green)%s %Creset(%ad)\" --date=relative
+  s = status
+  grog = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
+  co = checkout
 
 [color]
   # Use colors in Git commands that are capable of colored output when outputting to the terminal
