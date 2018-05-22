@@ -44,3 +44,5 @@
 [user]
 	name = elisp
 	email = eli.spitzer@gmail.com
+[push]
+  default = current
